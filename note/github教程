@@ -1,0 +1,11 @@
+1. 安装github
+	sudo apt-get install
+    	注册github账号，需要到邮箱里去验证
+	
+    	在github网页中新建一个仓库repository,或者加入到一个已经存在的仓库。
+    	在右边的剪切板中记录一下自己的仓库的地址
+    	输入git clone 仓库的地址
+    	进入本地github仓库的位置，输入git add .   将改动的地方加入到版本管理器
+	git commit -m "changes log"提交到本地的版本控制库里，例如 git commit -m "add"
+	git push -u origin master 提交到github账号里
+   
